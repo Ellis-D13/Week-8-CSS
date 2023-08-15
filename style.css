@@ -1,0 +1,85 @@
+/* default browser styles
+body, h1, h2, h3, p, ul, li, label, input, select {
+    margin: 0; 
+    padding: 0; 
+}
+
+/* styling the body for all pages */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: azure;
+    color: black;
+    margin: 20px;
+}
+
+/* main header styling */
+#main-header {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* subheader styling */
+.subheader {
+    font-size: 18px;
+    color: orange;
+    margin: 10px 0;
+}
+
+/* secondary header styling */
+.secondary-header {
+    font-size: 16px;
+    color: crimson;
+}
+
+/* styling for images */ 
+.image-style {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* paragraph styling */
+p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* navigation list styling */
+.nav-list {
+    list-style-type: none;
+}
+
+/* navigation item styling */ 
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* navigation link styling */
+.nav-link /* class selector */ {
+    text-decoration: none;
+    color: coral;
+}
+
+/* form element styling */
+form {
+    margin: 20px 0;
+}
+
+/* label, input, select styling */ 
+label, input, select {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+/* submit button styling */ 
+#submit-button /* id selector */ {
+    background-color: chocolate;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

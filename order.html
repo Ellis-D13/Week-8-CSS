@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+  
+ 
+     <!-- Title for the order page -->
+     <h1 id="main-header">Place an Order</h1>
+
+     <!-- Form to collect details for the order -->
+     <!-- begins a form element where users can submit information -->
+     <form action="/submit_order" method="post">
+        <!-- label for text imput, prompts the user to enter their name-->
+         <label for="name">Name:</label><br>
+         <!-- a text input where the user can type their name the 'id' associates this input with its label -->
+         <input type="text" id="name" name="name"><br>
+         <!-- a label for text input, prompts the user to enter their email address -->
+         <label for="email">Email:</label><br>
+         <!-- a text input where a user can type their email address -->
+         <input type="text" id="email" name="email"><br>
+         <!-- a label for a dropdown menu, select a product -->
+         <label for="product">Product:</label><br>
+            <!-- the 'id' specifies the product -->
+         <select id="product" name="product">
+            <!-- option value = name of product -->
+             <option value="Lion's mane Coffee">Lion's mane Coffee</option>
+             <option value="Cordyceps Coffee">Cordyceps Coffee</option>
+         </select><br> <!-- closing tag for the dropdown menu -->
+         <label for="quantity">Quantity:</label><br> <!-- label for number input -->
+         <input type="number" id="quantity" name="quantity" min="1"><br> <!-- where user enters quantity desired -->
+         <input type="submit" value="Submit"> <!-- a button when clicked submits the form -->
+     </form> <!-- closing tag for the form element -->
+     <img class="image-style" src="Images/images.jpg" alt="Mushroom Coffee" height="300px">
+ 
+     <!-- Navigation Links-->
+     <h3 class="secondary-header">Navigate:</h3>
+     <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Our Products</a></li>
+     </ul>
+    
+</body>
+</html>
